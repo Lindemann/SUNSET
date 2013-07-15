@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8229C5471784279E003005E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C5461784279E003005E5 /* Foundation.framework */; };
+		8229C5491784279E003005E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C5481784279E003005E5 /* CoreGraphics.framework */; };
+		8229C54B1784279E003005E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C54A1784279E003005E5 /* UIKit.framework */; };
+		8229C5511784279E003005E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8229C54F1784279E003005E5 /* InfoPlist.strings */; };
+		8229C5531784279E003005E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C5521784279E003005E5 /* main.m */; };
+		8229C5571784279E003005E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C5561784279E003005E5 /* AppDelegate.m */; };
+		8229C5601784279E003005E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C55F1784279E003005E5 /* ViewController.m */; };
+		8229C5621784279E003005E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8229C5611784279E003005E5 /* Images.xcassets */; };
+		8229C5691784279F003005E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C5681784279F003005E5 /* XCTest.framework */; };
+		8229C56A1784279F003005E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C5461784279E003005E5 /* Foundation.framework */; };
+		8229C56B1784279F003005E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229C54A1784279E003005E5 /* UIKit.framework */; };
+		8229C5731784279F003005E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8229C5711784279F003005E5 /* InfoPlist.strings */; };
+		8229C5751784279F003005E5 /* SUNSETTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229C5741784279F003005E5 /* SUNSETTests.m */; };
+		82409A35178A481000622F8E /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82409A34178A481000622F8E /* CircleView.m */; };
+		82409A37178A504F00622F8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82409A36178A504F00622F8E /* QuartzCore.framework */; };
+		82409A3A178A566300622F8E /* ColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 82409A39178A566300622F8E /* ColorScheme.m */; };
+		82A66176178E27E500F5DCFA /* SunFacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A66175178E27E500F5DCFA /* SunFacts.m */; };
+		82A9C50317844967009978BE /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9C50217844967009978BE /* EDSunriseSet.m */; };
+		82A9C50517844B0B009978BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A9C50417844B0B009978BE /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8229C56C1784279F003005E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8229C53B1784279E003005E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8229C5421784279E003005E5;
+			remoteInfo = SUNSET;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8229C5431784279E003005E5 /* SUNSET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUNSET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8229C5461784279E003005E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8229C5481784279E003005E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8229C54A1784279E003005E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8229C54E1784279E003005E5 /* SUNSET-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SUNSET-Info.plist"; sourceTree = "<group>"; };
+		8229C5501784279E003005E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8229C5521784279E003005E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8229C5541784279E003005E5 /* SUNSET-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SUNSET-Prefix.pch"; sourceTree = "<group>"; };
+		8229C5551784279E003005E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8229C5561784279E003005E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8229C55E1784279E003005E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8229C55F1784279E003005E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8229C5611784279E003005E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8229C5671784279F003005E5 /* SUNSETTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUNSETTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8229C5681784279F003005E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8229C5701784279F003005E5 /* SUNSETTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SUNSETTests-Info.plist"; sourceTree = "<group>"; };
+		8229C5721784279F003005E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8229C5741784279F003005E5 /* SUNSETTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUNSETTests.m; sourceTree = "<group>"; };
+		82409A33178A481000622F8E /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		82409A34178A481000622F8E /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		82409A36178A504F00622F8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		82409A38178A566300622F8E /* ColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorScheme.h; sourceTree = "<group>"; };
+		82409A39178A566300622F8E /* ColorScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorScheme.m; sourceTree = "<group>"; };
+		82A66174178E27E500F5DCFA /* SunFacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunFacts.h; sourceTree = "<group>"; };
+		82A66175178E27E500F5DCFA /* SunFacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunFacts.m; sourceTree = "<group>"; };
+		82A9C50117844967009978BE /* EDSunriseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSunriseSet.h; sourceTree = "<group>"; };
+		82A9C50217844967009978BE /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
+		82A9C50417844B0B009978BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8229C5401784279E003005E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82409A37178A504F00622F8E /* QuartzCore.framework in Frameworks */,
+				82A9C50517844B0B009978BE /* CoreLocation.framework in Frameworks */,
+				8229C5491784279E003005E5 /* CoreGraphics.framework in Frameworks */,
+				8229C54B1784279E003005E5 /* UIKit.framework in Frameworks */,
+				8229C5471784279E003005E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8229C5641784279F003005E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8229C5691784279F003005E5 /* XCTest.framework in Frameworks */,
+				8229C56B1784279F003005E5 /* UIKit.framework in Frameworks */,
+				8229C56A1784279F003005E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8229C53A1784279E003005E5 = {
+			isa = PBXGroup;
+			children = (
+				8229C54C1784279E003005E5 /* SUNSET */,
+				8229C56E1784279F003005E5 /* SUNSETTests */,
+				8229C5451784279E003005E5 /* Frameworks */,
+				8229C5441784279E003005E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8229C5441784279E003005E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8229C5431784279E003005E5 /* SUNSET.app */,
+				8229C5671784279F003005E5 /* SUNSETTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8229C5451784279E003005E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82409A36178A504F00622F8E /* QuartzCore.framework */,
+				82A9C50417844B0B009978BE /* CoreLocation.framework */,
+				8229C5461784279E003005E5 /* Foundation.framework */,
+				8229C5481784279E003005E5 /* CoreGraphics.framework */,
+				8229C54A1784279E003005E5 /* UIKit.framework */,
+				8229C5681784279F003005E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8229C54C1784279E003005E5 /* SUNSET */ = {
+			isa = PBXGroup;
+			children = (
+				82409A3B178A56C000622F8E /* AppDelegate + ViewController */,
+				82A66177178E27F200F5DCFA /* SunFacts */,
+				82409A3C178A56CD00622F8E /* ColorScheme */,
+				82409A33178A481000622F8E /* CircleView.h */,
+				82409A34178A481000622F8E /* CircleView.m */,
+				82409A32178A47A000622F8E /* EDSunriseSet */,
+				8229C54D1784279E003005E5 /* Supporting Files */,
+			);
+			path = SUNSET;
+			sourceTree = "<group>";
+		};
+		8229C54D1784279E003005E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8229C5611784279E003005E5 /* Images.xcassets */,
+				8229C54E1784279E003005E5 /* SUNSET-Info.plist */,
+				8229C54F1784279E003005E5 /* InfoPlist.strings */,
+				8229C5521784279E003005E5 /* main.m */,
+				8229C5541784279E003005E5 /* SUNSET-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8229C56E1784279F003005E5 /* SUNSETTests */ = {
+			isa = PBXGroup;
+			children = (
+				8229C5741784279F003005E5 /* SUNSETTests.m */,
+				8229C56F1784279F003005E5 /* Supporting Files */,
+			);
+			path = SUNSETTests;
+			sourceTree = "<group>";
+		};
+		8229C56F1784279F003005E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8229C5701784279F003005E5 /* SUNSETTests-Info.plist */,
+				8229C5711784279F003005E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82409A32178A47A000622F8E /* EDSunriseSet */ = {
+			isa = PBXGroup;
+			children = (
+				82A9C50117844967009978BE /* EDSunriseSet.h */,
+				82A9C50217844967009978BE /* EDSunriseSet.m */,
+			);
+			name = EDSunriseSet;
+			sourceTree = "<group>";
+		};
+		82409A3B178A56C000622F8E /* AppDelegate + ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8229C5551784279E003005E5 /* AppDelegate.h */,
+				8229C5561784279E003005E5 /* AppDelegate.m */,
+				8229C55E1784279E003005E5 /* ViewController.h */,
+				8229C55F1784279E003005E5 /* ViewController.m */,
+			);
+			name = "AppDelegate + ViewController";
+			sourceTree = "<group>";
+		};
+		82409A3C178A56CD00622F8E /* ColorScheme */ = {
+			isa = PBXGroup;
+			children = (
+				82409A38178A566300622F8E /* ColorScheme.h */,
+				82409A39178A566300622F8E /* ColorScheme.m */,
+			);
+			name = ColorScheme;
+			sourceTree = "<group>";
+		};
+		82A66177178E27F200F5DCFA /* SunFacts */ = {
+			isa = PBXGroup;
+			children = (
+				82A66174178E27E500F5DCFA /* SunFacts.h */,
+				82A66175178E27E500F5DCFA /* SunFacts.m */,
+			);
+			name = SunFacts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8229C5421784279E003005E5 /* SUNSET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8229C5781784279F003005E5 /* Build configuration list for PBXNativeTarget "SUNSET" */;
+			buildPhases = (
+				8229C53F1784279E003005E5 /* Sources */,
+				8229C5401784279E003005E5 /* Frameworks */,
+				8229C5411784279E003005E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUNSET;
+			productName = SUNSET;
+			productReference = 8229C5431784279E003005E5 /* SUNSET.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8229C5661784279F003005E5 /* SUNSETTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8229C57B1784279F003005E5 /* Build configuration list for PBXNativeTarget "SUNSETTests" */;
+			buildPhases = (
+				8229C5631784279F003005E5 /* Sources */,
+				8229C5641784279F003005E5 /* Frameworks */,
+				8229C5651784279F003005E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8229C56D1784279F003005E5 /* PBXTargetDependency */,
+			);
+			name = SUNSETTests;
+			productName = SUNSETTests;
+			productReference = 8229C5671784279F003005E5 /* SUNSETTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8229C53B1784279E003005E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Lindemann;
+				TargetAttributes = {
+					8229C5661784279F003005E5 = {
+						TestTargetID = 8229C5421784279E003005E5;
+					};
+				};
+			};
+			buildConfigurationList = 8229C53E1784279E003005E5 /* Build configuration list for PBXProject "SUNSET" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8229C53A1784279E003005E5;
+			productRefGroup = 8229C5441784279E003005E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8229C5421784279E003005E5 /* SUNSET */,
+				8229C5661784279F003005E5 /* SUNSETTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8229C5411784279E003005E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8229C5621784279E003005E5 /* Images.xcassets in Resources */,
+				8229C5511784279E003005E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8229C5651784279F003005E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8229C5731784279F003005E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8229C53F1784279E003005E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8229C5601784279E003005E5 /* ViewController.m in Sources */,
+				8229C5571784279E003005E5 /* AppDelegate.m in Sources */,
+				8229C5531784279E003005E5 /* main.m in Sources */,
+				82A9C50317844967009978BE /* EDSunriseSet.m in Sources */,
+				82409A3A178A566300622F8E /* ColorScheme.m in Sources */,
+				82409A35178A481000622F8E /* CircleView.m in Sources */,
+				82A66176178E27E500F5DCFA /* SunFacts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8229C5631784279F003005E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8229C5751784279F003005E5 /* SUNSETTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8229C56D1784279F003005E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8229C5421784279E003005E5 /* SUNSET */;
+			targetProxy = 8229C56C1784279F003005E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8229C54F1784279E003005E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8229C5501784279E003005E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8229C5711784279F003005E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8229C5721784279F003005E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8229C5761784279F003005E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8229C5771784279F003005E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8229C5791784279F003005E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNSET/SUNSET-Prefix.pch";
+				INFOPLIST_FILE = "SUNSET/SUNSET-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8229C57A1784279F003005E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNSET/SUNSET-Prefix.pch";
+				INFOPLIST_FILE = "SUNSET/SUNSET-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8229C57C1784279F003005E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SUNSET.app/SUNSET";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNSET/SUNSET-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SUNSETTests/SUNSETTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8229C57D1784279F003005E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SUNSET.app/SUNSET";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNSET/SUNSET-Prefix.pch";
+				INFOPLIST_FILE = "SUNSETTests/SUNSETTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8229C53E1784279E003005E5 /* Build configuration list for PBXProject "SUNSET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8229C5761784279F003005E5 /* Debug */,
+				8229C5771784279F003005E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8229C5781784279F003005E5 /* Build configuration list for PBXNativeTarget "SUNSET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8229C5791784279F003005E5 /* Debug */,
+				8229C57A1784279F003005E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8229C57B1784279F003005E5 /* Build configuration list for PBXNativeTarget "SUNSETTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8229C57C1784279F003005E5 /* Debug */,
+				8229C57D1784279F003005E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8229C53B1784279E003005E5 /* Project object */;
+}
